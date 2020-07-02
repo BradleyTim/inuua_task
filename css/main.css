@@ -1,0 +1,86 @@
+:root {
+  --primary-color: rgb(15, 15, 53);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section.wrapper {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+li.details-item > span{
+  font-size: 15px;
+}
+
+i {
+  display: inline-block;
+  width: 15px;
+}
+
+.theme-color {
+  color: var(--primary-color);
+}
+
+.purchased-by {
+  position: absolute;
+  background: rgb(15, 15, 53);
+  display: inline-block;
+  font-size: x-small;
+  color: #eee;
+  margin-bottom: -5rem;
+  padding: 0.25rem 1rem;
+  border-bottom-right-radius: 7px;
+}
+
+.cost-item, .cost-id {
+  font-size: 14px;
+}
+
+.main-title {
+  color: rgb(15, 15, 53);
+}
+
+.additional-module {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.info-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: rgb(15, 15, 53);
+}
+
+.list-item {
+  font-size: 14px;
+  padding: 0.5rem 0 0.5rem 0.85rem;
+}
+
+.plan-price-text {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.plan-price-amount {
+  margin-top: 0.5rem;
+  color: rgb(15, 15, 53);
+}
+
+.btn-start {
+  color: #eee;
+  background: rgb(15, 15, 53);
+  border: 1px solid rgb(15, 15, 53);
+}
