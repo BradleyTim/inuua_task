@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html, body {
@@ -83,4 +84,10 @@ i {
   color: #eee;
   background: rgb(15, 15, 53);
   border: 1px solid rgb(15, 15, 53);
+}
+
+@media screen and (min-width: 768px) {
+  div#page-root-div {
+    margin: 0 auto;
+  }
 }
