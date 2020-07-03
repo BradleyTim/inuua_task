@@ -6,35 +6,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 html, body {
   font-family: 'Open Sans', sans-serif;
-}
-
-section.wrapper {
-  position: relative;
+  overflow-x: hidden;
 }
 
 ul {
   list-style: none;
 }
 
-li.details-item > span{
-  font-size: 15px;
+i {
+  font-size: 1rem;
+  display: inline-block;
+  width: 1rem;
 }
 
-i {
-  display: inline-block;
-  width: 15px;
+i > img {
+  min-width: 1rem;
 }
 
 .theme-color {
   color: var(--primary-color);
 }
 
-.purchased-by {
+.details-item > span{
+  font-size: 1rem;
+}
+
+.img-container {
+  position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.purchased {
   position: absolute;
   background: rgb(15, 15, 53);
   display: inline-block;
@@ -43,6 +51,7 @@ i {
   margin-bottom: -5rem;
   padding: 0.25rem 1rem;
   border-bottom-right-radius: 7px;
+  overflow: hidden;
 }
 
 .cost-item, .cost-id {
@@ -65,8 +74,8 @@ i {
 }
 
 .list-item {
-  font-size: 14px;
-  padding: 0.5rem 0 0.5rem 0.85rem;
+  font-size: 1rem;
+  padding-left: 0.85rem;
 }
 
 .plan-price-text {
@@ -87,7 +96,7 @@ i {
 }
 
 @media screen and (min-width: 768px) {
-  div#page-root-div {
+  div.root {
     margin: 0 auto;
   }
 }
