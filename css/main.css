@@ -24,14 +24,14 @@ i {
 }
 
 i > img {
-  min-width: 1rem;
+  max-width: 1rem;
 }
 
 .theme-color {
   color: var(--primary-color);
 }
 
-.details-item > span{
+.details-item > span {
   font-size: 1rem;
 }
 
@@ -50,25 +50,25 @@ i > img {
   color: #eee;
   margin-bottom: -5rem;
   padding: 0.25rem 1rem;
-  border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 0.425rem;
   overflow: hidden;
 }
 
 .cost-item, .cost-id {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .main-title {
   color: rgb(15, 15, 53);
 }
 
-.additional-module {
-  font-size: 14px;
+.aditional-module {
+  font-size: 0.80rem;
   font-weight: 600;
 }
 
 .info-title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
   color: rgb(15, 15, 53);
 }
@@ -79,7 +79,7 @@ i > img {
 }
 
 .plan-price-text {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -92,7 +92,7 @@ i > img {
 .btn-start {
   color: #eee;
   background: rgb(15, 15, 53);
-  border: 1px solid rgb(15, 15, 53);
+  border: 0.5px solid rgb(15, 15, 53);
 }
 
 @media screen and (min-width: 768px) {
