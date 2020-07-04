@@ -24,7 +24,7 @@ i {
 }
 
 i > img {
-  max-width: 1rem;
+  min-width: 1rem;
 }
 
 .theme-color {
